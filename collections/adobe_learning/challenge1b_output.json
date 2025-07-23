@@ -18,84 +18,9 @@
       "The Ultimate PDF Sharing Checklist.pdf"
     ],
     "persona": "HR professional",
-    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance."
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+    "processing_timestamp": "2025-07-23T12:04:37.690120800+00:00"
   },
   "extracted_sections": [],
-  "subsection_analysis": [
-    {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Create and Convert_2.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Edit_1.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Edit_2.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Export_1.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Export_2.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Fill and Sign.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Generative AI_1.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Generative AI_2.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Request e-signatures_1.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Request e-signatures_2.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Share_1.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Learn Acrobat - Share_2.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "Test Your Acrobat Exporting Skills.pdf",
-      "refined_text": "",
-      "page_number": 1
-    },
-    {
-      "document": "The Ultimate PDF Sharing Checklist.pdf",
-      "refined_text": "",
-      "page_number": 1
-    }
-  ]
+  "subsection_analysis": []
 }
