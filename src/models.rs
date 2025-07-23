@@ -1,5 +1,4 @@
 use serde::{Serialize, Deserialize};
-use chrono::Utc;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ChallengeInfo {

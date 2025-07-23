@@ -19,8 +19,104 @@
     ],
     "persona": "HR professional",
     "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
-    "processing_timestamp": "2025-07-23T12:04:37.690120800+00:00"
+    "processing_timestamp": "2025-07-23T13:57:38.565917+00:00"
   },
   "extracted_sections": [],
-  "subsection_analysis": []
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "( Fo r e x a m ple , t he Adv anc e d s e t t ings but t o n is unav aila ble f o r M ic r o so f t W o r d and M ic r o s o f t E x c e l f ile s.  Se le c t C r e a te \u0001� \u0001} \u0000\u0003\u0001\u0010 \u0001} \u0001v \u0001� \u0001\u001e \u0001� \u0001� \u0000\u0003 \u0001� \u0001Z \u0001\u001e \u0000\u0003\u0001.  \u0001o \u0001\u001e \u0000\u0003\u0001� \u0001} \u0000\u0003\u0001\u0002 \u0000\u0003\u0000W \u0000\u0018 F.",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "C on v e rt a f ile to PDF u sin g Ac r ob at m e n u c omman d s 1.  Do a ny o f th e fo l l o wi ng : \u0000x I n Ac ro b at , s e le c t Cr e at e f r om the g l o ba l to o l ba r.  T he C r e a t e a P DF to o l o pe ns.",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "N ot e: Whe n na m i ng a P DF tha t�s i nte nde d fo r e l e c tr o ni c di s tr i buti o n, l i m i t the fi l e na m e to e i g ht c ha r a c t e r s ( wi th no s pa c e s ) a nd i nc l ude the.  pdf e x te ns i o n.  T hi s a c ti o n e ns ur e s tha t e mail \u0001�\u0001� \u0001} \u0001P \u0001� \u0001\u0002 \u0001u \u0001� \u0000\u0003 \u0001} \u0001� \u0000\u0003 \u0001v\u0001\u001e \u0001�\u0001�\u0001} \u0001� \u0001l\u0000\u0003 \u0001� \u0001\u001e \u0001� \u0001� \u0001\u001e \u0001� \u0001� \u0000\u0003 \u0001\u001a\u0001} \u0001v\u0003[\u0001�\u0000\u0003 \u0001�\u0001� \u0001�\u0001v\u0001\u0010 \u0001\u0002 \u0001�\u0001\u001e \u0000\u0003 \u0001�\u0001Z\u0001\u001e \u0000\u0003 \u0001( \u0001] \u0001o \u0001\u001e \u0001v\u0001\u0002 \u0001u \u0001\u001e \u0000\u0003 \u0001\u0002 \u0001v\u0001\u001a\u0000\u0003 \u0001�\u0001Z\u0001\u0002 \u0001�\u0000\u0003 \u0001�\u0001Z\u0001\u001e \u0000\u0003 \u0000W \u0000\u0018\u0000& \u0000\u0003 \u0001} \u0001�\u0001\u001e \u0001v\u0001� \u0000\u0003 \u0001\u0002 \u0001� \u0000\u0003 \u0001\u001e \u0001� \u0001�\u0001\u001e \u0001\u0010 \u0001� \u0001\u001e \u0001\u001a\u0003X C o n v e r t a f i l e t o P D F u si n g t h e C o n v e r t t o P D F t o o l 1.",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "Vie w A do be PD F Res u l t \u0000K \u0001�\u0001\u001e \u0001v\u0001� \u0000\u0003 \u0001�\u0001Z\u0001\u001e \u0000\u0003 \u0001\u0010 \u0001} \u0001v\u0001� \u0001\u001e \u0001� \u0001�\u0001\u001e \u0001\u001a\u0000\u0003 \u0001\u001a\u0001} \u0001\u0010 \u0001�\u0001u \u0001\u001e \u0001v\u0001�\u0000\u0003 \u0001\u001a\u0001] \u0001� \u0001\u001e \u0001\u0010 \u0001�\u0001o \u0001� \u0000\u0003 \u0001] \u0001v\u0001�\u0001} \u0000\u0003 \u0000\u0004 \u0001\u0010 \u0001� \u0001} \u0001\u000f\u0001\u0002 \u0001�\u0003X \u0000\u0003 \u0003~ \u0000\u001c \u0001� \u0001\u0010 \u0001\u001e \u0001� \u0001�\u0001] \u0001} \u0001v\u0003W \u0000\u0003 \u0001�\u0001Z\u0001\u001e \u0001v\u0000\u0003 \u0001� \u0001} \u0001�\u0000\u0003 \u0001\u0010 \u0001Z\u0001} \u0001} \u0001� \u0001\u001e C on ver t To A do be PD F A nd Ema i l.  ) Pr o m pt Fo r A do be PD F F ile Nam e Le ts y o u e nte r a c us to m fi l e na \u0001u \u0001\u001e \u0000\u0003 \u0001(\u0001} \u0001� \u0000\u0003 \u0001�\u0001Z\u0001\u001e \u0000\u0003 \u0001� \u0001\u001e \u0001� \u0001�\u0001o \u0001�\u0001] \u0001v \u0001P \u0000\u0003 \u0000W \u0000\u0018\u0000& \u0003X \u0000\u0003 \u0000\u0018\u0001\u001e \u0001� \u0001\u001e \u0001o \u0001\u001e \u0001\u0010 \u0001�\u0000\u0003 \u0001�\u0001Z\u0001] \u0001� \u0000\u0003 \u0001} \u0001�\u0001�\u0001] \u0001} \u0001v\u0000\u0003 \u0001�\u0001} \u0000\u0003 \u0001� \u0001\u0002 \u0001� \u0001\u001e \u0000\u0003 \u0001�\u0001Z\u0001\u001e \u0000\u0003 \u0001(\u0001] \u0001o \u0001\u001e \u0000\u0003 \u0001] \u0001v\u0000\u0003 the s a m e fo l de r a s the s o ur c e fi l e , u s i ng the s a m e na m e but wi th a.  pdf e x te ns i o n.",
+      "page_number": 20
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "refined_text": "C on ver t s i g na tur e fie ld s s p e c ifie d by pdf m a r k s C o nv e r ts s i g na tur e fi e l ds i ndi c a te d b y pdfm a r ks.  E na bl e A d va n ced T aggi n g I nte g r a te s thi s i nto the P DF.  B o o k m a r k s t a b se t t i n g s ( M i c r o s o f t W o r d ) T he o pti o ns y o u s pe c i fy o n thi s ta b d e te r m i ne w hi c h i te m s a r e c o nv e r te d i nto P DF b o o km a r ks i n the P DF.",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "refined_text": "Se le c t a n a me an d lo c a t io n f o r y o u r P D F, an d c lic k Sav e.  N ot e: B y de f a ul t, y o ur P DF i s s a v e d wi th the s a m e fi l e na m e a nd a.  pdf e x te ns i o n.",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "T y pe n ew t ext to r epl a c e th e s el ec ted text, o r pr es s D el ete to r em o ve i t.  T o r o ta te th e text b o x, u s e th e r o ta ti o n h a n d l e a t th e to p o f th e s el ec ted text box.  M a na g e l ist it e m s u si ng t h e l ist c ont r ol s ( bu l l e t e d a nd nu m b e r e d ) in t h e l e f t F o r m a t pa n el.",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Ex p o r t PDF i m a g e s to a n o th e r fo r mat Yo u c a n s a v e ever y pa ge ( a l l text, i m a ges , a n d vec to r o b j e c ts o n a pa g e) to a n i m a ge f o r m a t.  C h oose Co n ve r t > Ex p o rt PD F To > I m a ge f o rm a t > [ I mag e T y p e ].  Y o u can al s o e x p o r t e ach i mag e i n a P D F t o a s e p ar at e i mag e f i l e.",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "R o t at e , m ov e , de le te , e xtr a ct, o r r e nu m b e r p ag e s i n a P D F R o ta te p a g e s i n a PDF Y ou c a n r ot a t e a l l or se l e c t p a g e s in a d oc u m e n t.  R ot a t i on i s ba se d o n 90 - d egr ee i n c r em en ts.  Yo u c a n r o t a te pa ges u s i n g th e r o ta t e to o l s i n th e Pa ge T hu m b na il s p a ne or th e Ro ta te op t io n.",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Re m o ve yo ur signa tu r e or i nitia l s Y ou c a n r e m ov e y ou r sa v e d s ig na t u r e or in it ia l s f r om A c r o ba t : 1.  O p e n a PD F in A c r oba t.  S el ec t y o u r s i gn a t u r e pr es en t o n th e pa ge.",
+      "page_number": 18
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "A c r o b a t em b ed s th e en c r y pted m es s a ge d i ges t i n th e P D F , c er ti f i c a te d eta i l s , s i gn a tu r e i m a ge, a n d a d o c u m en t ver s i o n wh en sig ne d.  Cer t i f i c a t e - ba s e d s i g na t u r e i n a P D F f o rm S teps to a dd a certi f i c a te- bas e d si gna tu re to a PDF 1.  O p e n a PD F in A c r oba t a nd c h o ose A ll T ool s > mo re > U se a ce r ti f i ca te in t h e g l oba l ba r.",
+      "page_number": 22
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "ce r t i f i cat e s t h at ar e s i g n e d an d ce r t i f i e d b y a t r u s t an ch o r.  T h e r e f o r e , admi n i s t r at o r s can p r e c onf ig u r e c l ie nt i nst a l l a t ions or a l l o w e nd u se r s t o a d d a t r u st a nc h or.  S i g n c om p on e n t PDFs an d PDF Por t f oli os Y ou ca n s ig n c om p one nt PD F s w it h in a PD F P or t f ol io, or s ig n th e PD F Por t f ol io as a wh o l e.",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "In Ac r o b a t o n W i n d o w s � , y o u c a n e xpo r t text e d i t c o m m en ts d i r ec tl y to a n Au t o d es k Au to C AD d oc u m e nt t h a t t h e PD F i s ba se d o n t o in c or p or a t e y ou r e d it s.  T o u se t h i s f e a t u r e , y o u mus t u s e P D F Ma ker i n Au t o C A D to c r ea te t h e P D F.  Sh a r e a PDF f o r r e vi e w U s e th e Ac r o b a t t o e a si l y sh a r e PD F f il e s f or r e v ie w f r om y ou r d e sk t op a p p l ic a t i on, t h e A c r oba t w e b, or Ac r o b a t R ea d er m o b i l e a pp.",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "( Opti o n a l ) T o m a ke f u r t h er c h a n ges to th e text b o x: \u0000x T o r es i z e th e c a l l o u t, s e l ec t i t a n d d r a g a n y o f t h e h a n d l es th a t a ppea r.  \u0000x T o m o ve th e text b o x, c l i c k i n s i d e t h e b o x a n d d r a g i t.  \u0000x T o m o ve th e en ti r e c a l l o u t, c l i c k e i t h er th e en d - po i n t l i n e o r a n ed ge o f th e text box , a nd d r a g it.",
+      "page_number": 13
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Gener al S haring C he cklist \u0000x Op en Yo ur PDF \u0000x Have you launched Acro bat or Acr obat Re ad er and opened the PDF you want to share? \u0000x Ch oo se Yo ur Sha ring Method \u0000x Are yo u s haring via email, link, or a t hird - par ty a pp like Micro s oft Teams or Wh atsA pp ? \u0000x Set Per m issio ns \u0000x Have you decided if recip ien ts can comment or just view the document? \u0000x Add Recip ient s \u0000x Did you ent er the email addresses of ever yone w ho needs access? \u0000x Customiz e Yo u r M essage \u0000x Have you added a p er s onal touch to the sub ject and message fields? \u0000x Creat e a nd S hare the Link \u0000x Did you gener ate a shareable link and copy it for distributi on? \u0000x Send the In vitat ion.",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "\u0000x Have you sent the email o r sh are d the link through your chosen platfor m? \u0000x Foll ow Up \u0000x Are yo u t racki ng w ho has accesse d t he document and follo wing up as needed? Pro fessional Tip: Clear Instructio ns Ensure you r email instruct i ons are cle ar and concise t o avoid any confusion for yo u r r ecipien ts.  Sh aring Checkl ist fo r Re al E stat e Pro fessio nals In the real est ate i ndustry, sha ring d ocuments efficientl y is cruc ial for closi ng d eals and keep ing c lient s infor med.  Here's a t ai lor ed che cklist to help yo u manag e your PDF sharing nee ds.",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "\u0000x Did you ent er the email addresses of clients, agent s, and other stake hol ders? \u0000x Customiz e Yo u r M essage \u0000x Have you added a p er s onal touch to the subject and m essage fields, highlightin g key pr operty details? \u0000x Creat e a nd S hare the Link \u0000x Did you gener ate a shareable link and copy it for distributi on? \u0000x Send the In vitat ion \u0000x Have you sent the email o r sh are d the link through your chosen platfor m? \u0000x Foll ow Up \u0000x Are yo u t racki ng w ho has accesse d the document and follo wing up with client s fo r fee dbac k or next ste ps? Pro fessional Tip: High light Key Det ai ls Make sure t o e m ph asize imp ortant property details in your mess age to capt ure your clie nts' att enti on.  Conclusion Sh aring P DFs with Adobe Acr ob a t is straightfor ward and e fficient, wh et her you'r e w or king on a general p ro j ect or managing real est ate documents.  By foll owing these checklists, you can ensure t hat you r sharing pro cess is smoo th a nd pro fes sional.",
+      "page_number": 3
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Real Est a te Sh aring Ch eckli st \u0000x Op en Yo ur Pro per ty Do cu ment \u0000x Have you launched Acro bat or Acr obat Read er and opened the p ropert y lis ting or contract yo u need to s hare? \u0000x Ch oo se Yo ur Sha ring Method \u0000x Are yo u s haring via email, link, or a t hird - par ty a pp like Micro soft Teams or Wh atsA pp ? \u0000x Set Per m issio ns \u0000x Have you decided if clients can comme nt o n th e docume nt o r just vie w it? \u0000x Add Clie nts and Stakehold er s.",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "The Ult i mate PDF Sharing Ch eckli st Sh aring P DFs can be a b reez e with Ado be Acr obat.  Whe ther you' re coll aborating on a pro j ect , s eek ing feedback, or simp ly distr ibuti ng infor mation, this checklist w ill ensur e you co v er all the base s.  Le t's dive into the e ssenti als of sharing PDFs effective ly.",
+      "page_number": 1
+    }
+  ]
 }
