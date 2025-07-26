@@ -238,7 +238,7 @@ impl PdfProcessor {
                             pdf::content::TextDrawAdjusted::Spacing(_) => {
                                 // Handle spacing adjustments - just add a space
                                 text.push(' ');
-                            }
+                            } 
                         }
                     }
                 },

@@ -22,7 +22,7 @@ impl Config {
                 let output_path = entry.path().join("challenge1b_output.json");
                 collections.push((name, input_path, output_path));
             }
-        }
+        } 
         Ok(collections)
     }
 }

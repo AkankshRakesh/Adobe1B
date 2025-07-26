@@ -10,4 +10,4 @@ pub fn ensure_directory_exists(path: &Path) -> Result<()> {
 
 pub fn sanitize_filename(filename: &str) -> String {
     filename.replace(|c: char| !c.is_ascii_alphanumeric(), "_")
-}
+} 
