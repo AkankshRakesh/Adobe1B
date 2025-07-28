@@ -51,16 +51,178 @@ This project adheres to the specified constraints:
 
 ### Prerequisites
 
-- **Rust**: Install the Rust toolchain from [rustup.rs](https://rustup.rs/).
-- **Poppler**: For OCR fallback, install Poppler from your package manager (e.g., `brew install poppler`, `sudo apt-get install poppler-utils`).
+- **Rust**: Install the Rust toolchain from [rustup.rs](https://rustup.rs/). Requires Rust 1.70+ (2021 edition)
+- **Poppler** (Optional but recommended): For enhanced OCR fallback capability
+  - **Windows**: Download and install [Poppler for Windows](https://github.com/oschwartz10612/poppler-windows)
+  - **macOS**: `brew install poppler`
+  - **Linux**: `sudo apt-get install poppler-utils` (Ubuntu/Debian) or equivalent
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd Adobe1B
+   ```
+
+2. **Verify Rust installation**:
+   ```bash
+   rustc --version
+   cargo --version
+   ```
+
+3. **Build the project**:
+   ```bash
+   # For development
+   cargo build
+   
+   # For optimized release build
+   cargo build --release
+   ```
+
+### Project Structure
+
+```
+Adobe1B/
+├── collections/              # Document collections
+│   ├── adobe_learning/       # Adobe Acrobat tutorials
+│   │   ├── pdfs/            # PDF files
+│   │   ├── challenge1b_input.json
+│   │   └── challenge1b_output.json (generated)
+│   ├── recipe_collection/    # Cooking recipes
+│   └── travel_planning/      # Travel guides
+├── src/                     # Source code
+├── target/                  # Compiled binaries (generated)
+└── Cargo.toml              # Dependencies
+```
 
 ### Running the Application
 
-1.  **Structure Your Data**: Place your document collections in the `collections` directory. Each collection should be a subdirectory containing a `pdfs` folder and a `challenge1b_input.json` file.
-2.  **Execute from the Root**: Run the application from the project's root directory.
+#### Method 1: Using Cargo (Development)
+```bash
+# Run from project root directory
+cargo run
+```
 
-    ```bash
-    cargo run
-    ```
+#### Method 2: Using Compiled Binary (Production)
+```bash
+# After building with --release
+./target/release/pdf_analyzer        # Unix/Linux/macOS
+./target/release/pdf_analyzer.exe    # Windows
+```
 
-The system will automatically process all collections and generate a `challenge1b_output.json` file for each one.
+#### Method 3: Check and Test
+```bash
+# Verify compilation without running
+cargo check
+
+# Run tests (if available)
+cargo test
+
+# Run with verbose output
+cargo run --verbose
+```
+
+### Input File Format
+
+Each collection requires a `challenge1b_input.json` file:
+
+```json
+{
+  "challenge_info": {
+    "challenge_id": "challenge1b",
+    "test_case_name": "pdf_content_extraction",
+    "description": "Extract relevant content based on persona and task"
+  },
+  "documents": [
+    {
+      "filename": "example.pdf",
+      "title": "Example Document"
+    }
+  ],
+  "persona": {
+    "role": "Travel Planner"
+  },
+  "job_to_be_done": {
+    "task": "Plan a trip to South of France with friends"
+  }
+}
+```
+
+### Supported Personas and Use Cases
+
+| Persona | Keywords | Example Task |
+|---------|----------|--------------|
+| **Travel Planner** | hotel, restaurant, itinerary, transport, budget, accommodation | Plan a trip to South of France |
+| **HR Professional** | form, fillable, signature, compliance, onboarding, employee | Process employee onboarding documents |
+| **Food Contractor** | recipe, vegetarian, buffet, ingredients, preparation, menu | Plan a buffet menu for an event |
+
+### Expected Output
+
+The application generates `challenge1b_output.json` with:
+- **Metadata**: Processing timestamp, input documents, persona, and task
+- **Extracted Sections**: Identified document sections with importance ranking
+- **Subsection Analysis**: Relevant text snippets with page numbers
+
+### Troubleshooting
+
+#### Common Issues
+
+1. **Compilation Errors**:
+   ```bash
+   cargo clean && cargo build
+   ```
+
+2. **PDF Processing Failures**:
+   - Check PDF file accessibility
+   - Verify Poppler installation for OCR fallback
+   - Review debug output in generated `.txt` files
+
+3. **No Output Generated**:
+   - Ensure `challenge1b_input.json` exists in collection directories
+   - Verify PDF files are in `pdfs/` subdirectories
+   - Check file permissions
+
+4. **Performance Issues**:
+   - Large PDFs may take time to process
+   - Use `--release` build for better performance
+   - Monitor memory usage for very large documents
+
+#### Debug Information
+
+The application provides extensive debug output:
+- Console logs showing processing progress
+- Generated `.txt` files alongside PDFs for manual inspection
+- Detailed error messages with context
+
+#### System Requirements
+
+- **Memory**: Varies by PDF size (typically 100MB-1GB)
+- **Disk Space**: Additional space for debug text files
+- **CPU**: Any modern processor (CPU-only processing)
+
+### Example Commands
+
+```bash
+# Basic run
+cargo run
+
+# Build and run optimized version
+cargo build --release && ./target/release/pdf_analyzer
+
+# Check for errors without running
+cargo check
+
+# Clean and rebuild
+cargo clean && cargo build
+
+# Run with environment variables for debugging
+RUST_LOG=debug cargo run
+```
+
+### Integration Notes
+
+- The application processes all collections in the `collections/` directory automatically
+- Each collection is processed independently
+- Output files are generated in the same directory as input files
+- The system is designed to be generic and handle various document types and personas
